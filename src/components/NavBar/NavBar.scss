@@ -1,0 +1,20 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #35274d;
+    padding-left: 2vmin;
+    padding-right: 20vmin;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    img {
+        width: 6vmin;
+        margin: 1vmin 0;
+    }
+
+    div:hover {
+        cursor: pointer;
+        color: var(--light-gold);
+        text-decoration: underline;
+    }
+}
